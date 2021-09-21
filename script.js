@@ -36,21 +36,7 @@ document.addEventListener("keydown", function (e) {
     closeModal();
   }
 });
-const message = document.createElement("div");
-message.classList.add("cookie-message");
-message.innerHTML = `We use cookies for improved functionality and analytics. <button class="btn btn--close-cookie">Got it!</button> `;
-header.prepend(message);
-document
-  .querySelector(".btn--close-cookie")
-  .addEventListener("click", function () {
-    message.remove();
-  });
-//Styles
-message.style.backgroundColor = "#37383d";
-message.style.width = "120%"; //inline styles
-//getComputedStyle(message).color;//actual properties
-message.style.height =
-  Number.parseFloat(getComputedStyle(message).height) + 30 + "px";
+
 
 //document.documentElement.style.setProperty("--color-primary", "orangered");
 
