@@ -35,7 +35,7 @@
           <a class="nav__link" href="#section--3">Testimonials</a>
         </li>
         <li class="nav__item">
-          <a class="nav__link nav__link--btn btn--show-modal" href="#">Open account</a>
+          <a class="nav__link nav__link--btn " href="#">Open account</a>
         </li>
       </ul>
     </nav>
@@ -239,7 +239,22 @@
     </div>
     <button class="btn btn--show-modal">Open your free account today!</button>
   </section>
-
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Book your room <br />
+      in just <span class="highlight">5 minutes</span>
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" />
+      <label>Last Name</label>
+      <input type="text" />
+      <label>Email Address</label>
+      <input type="email" />
+      <button class="btn">Next step &rarr;</button>
+    </form>
+  </div>
   <div class="overlay hidden"></div>
 
   <script src="script.js"></script>
