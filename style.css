@@ -127,6 +127,7 @@ img {
   width: 100%;
   padding: 3rem;
   z-index: 100;
+  justify-content: flex-end;
 }
 
 /* nav and stickly class at the same time */
@@ -136,8 +137,11 @@ img {
 }
 
 .nav__logo {
-  height: 14.5rem;
+  height: 11.5rem;
   transition: all 0.3s;
+  position: absolute;
+  top: -1rem;
+  left: -2rem;
 }
 
 .nav__links {
