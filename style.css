@@ -1,9 +1,8 @@
-
 :root {
   --color-primary: #5f71fc;
   --color-secondary: #a04be6;
   --color-tertiary: #ff585f;
-  --color-primary-darker: #4bbb7d;
+  --color-primary-darker: #a6b5f8;
   --color-secondary-darker: #ffbb00;
   --color-tertiary-darker: #fd424b;
   --color-primary-opacity: #5ec5763a;
@@ -12,6 +11,7 @@
   --gradient-primary: linear-gradient(to top left, #4021ad, #bf6af0);
   --gradient-secondary: linear-gradient(to top left, #03ff81, #ffcb03);
 }
+
 
 * {
   margin: 0;
